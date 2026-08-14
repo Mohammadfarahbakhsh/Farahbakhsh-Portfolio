@@ -5,10 +5,8 @@ import { PulsatingButton } from '../ui/pulsating-button';
 
 const MainContent = () => {
     return (
-        <div dir="rtl" className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-background px-6">
-            <div className="pointer-events-none absolute inset-0 -z-10 opacity-40">
+        <div className="relative flex min-h-screen w-full items-center justify-center overflow-hidden bg-background px-6">
                 <HexagonPatternDemo />
-            </div>
 
             <div className="flex w-full max-w-3xl flex-col items-center gap-8 text-center">
                 <h1 className="whitespace-nowrap font-mono text-4xl font-semibold tracking-tight text-foreground sm:text-5xl">

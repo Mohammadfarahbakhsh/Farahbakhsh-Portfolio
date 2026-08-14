@@ -6,7 +6,7 @@ import { HexagonPattern } from "./hexagon-pattern"
 
 export function HexagonPatternDemo() {
   return (
-    <div className="bg-background relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden rounded-lg border">
+    <div className="bg-background relative flex h-[500px] w-full flex-col items-center justify-center overflow-hidden">
       <HexagonPattern
         hexagons={[
           [1, 1],
