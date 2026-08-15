@@ -83,7 +83,7 @@ export const projects: Project[] = [
       'A modern, responsive admin dashboard built with React and Vite, featuring a clean and intuitive interface for managing and displaying application data.',
     image: '/logo.png',
     tech: ['vite','tailwind', 'React'],
-    liveUrl: 'admin-panel-gold-six.vercel.app',
+    liveUrl: 'https://admin-panel-gold-six.vercel.app',
     githubUrl: 'https://github.com/Mohammadfarahbakhsh/admin-panel',
   },
   {
